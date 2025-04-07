@@ -1,8 +1,7 @@
-
 services:
   - type: worker
-    name: bot69vn
+    name: bot-69vn
     env: python
     plan: free
-    buildCommand: ""
+    buildCommand: pip install -r requirements.txt
     startCommand: python main.py

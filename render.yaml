@@ -1,6 +1,6 @@
 
 services:
-  - type: web
+  - type: worker
     name: bot69vn
     env: python
     plan: free
